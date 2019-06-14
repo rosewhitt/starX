@@ -1,0 +1,90 @@
+.class{
+  object-fit: fill;
+}
+img{
+  margin-left: 450px;
+  padding: 2px;
+  width: cover;
+  height: 300px;
+  border-width: 10px;
+  border-color: #000033;
+  border-style: double;
+}
+h3{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #000033;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #F9A547;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  position: fixed;
+  z-index: 70;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 10px;
+}
+li a {
+  display: block;
+  color: #000;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #F9A547;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+h4{
+  margin-left: 130px;
+  margin-right: 130px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #000033;
+}
+.topnav {
+  background-color: #000033;
+  overflow: hidden;
+  text
+  justify-content: center;
+  height: 100px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #c2c2d6;
+}
+/* Style the links inside the navigation bar */
+.topnav {
+  float: center;
+  color: #628097;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #000033;
+}
+.pollution{
+  margin-left: 35px;
+}

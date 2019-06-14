@@ -1,0 +1,501 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltipdrop {
+  visibility: hidden;
+  background-color: #D54B57;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: relative;
+  z-index: 5;
+}
+
+.tooltip:hover .tooltipdrop {
+  visibility: visible;
+}
+
+.title {
+  background-color: #EF5462;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #F9A547;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  position: fixed;
+  z-index: 70;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 10px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #F9A547;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+section {
+  background-color: #254156;
+  margin: auto;
+  border-radius: 50%;
+  width: 2000px;
+  height: 2000px;
+}
+
+#Pegasus{
+  position: absolute;
+  z-index: 1;
+  left: 1300px;
+  top: 700px;
+  background-color:transparent;
+  object-fit: cover;
+  width:500px;
+  transform: rotate(-40deg);
+}
+#abtPeg{
+  position: absolute;
+  z-index: 17;
+  left: 800px;
+  top: 550px;
+  background-color: #D54B57;
+  width: 550px;
+  height: 350px;
+  text-align: center;
+}
+#abtPeg-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtPeg-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Cancer {
+  position: absolute;
+  z-index: 2;
+  left: 100px;
+  top: 850px;
+  background-color:transparent;
+  object-fit: cover;
+  width:320px;
+  transform: rotate(40deg);
+}
+#abtCancer {
+  position: absolute;
+  z-index: 17;
+  left: 400px;
+  top: 850px;
+  width: 550px;
+  height: 420px;
+  text-align: center;
+}
+#abtCanc-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtCanc-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Lynx{
+  position: absolute;
+  z-index: 3;
+  left: 350px;
+  top: 550px;
+  background-color:transparent;
+  object-fit: cover;
+  width:430px;
+  transform: rotate(60deg);
+}
+#abtLynx {
+  position: absolute;
+  z-index: 17;
+  left: 800px;
+  top: 600px;
+  width: 550px;
+  height: 450px;
+  text-align: center;
+}
+#abtLynx-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtLynx-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#UrsaMajor{
+  position: absolute;
+  z-index: 7;
+  left: 250px;
+  top: 0px;
+  background-color:transparent;
+  object-fit: cover;
+  width:700px;
+  transform: rotate(90deg);
+}
+#abtUrsaMj {
+  position: absolute;
+  z-index: 17;
+  left: 800px;
+  top: 300px;
+  width: 550px;
+  height: 480px;
+  text-align: center;
+}
+#abtUrsaMj-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtUrsaMj-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#leoMinor{
+  position: absolute;
+  z-index: 9;
+  left: 100px;
+  top: 300px;
+  background-color:transparent;
+  object-fit: cover;
+  width:300px;
+  transform: rotate(60deg);
+}
+#abtLeoMn {
+  position: absolute;
+  z-index: 17;
+  left: 400px;
+  top: 300px;
+  width: 550px;
+  height: 430px;
+  text-align: center;
+}
+#abtLeoMn-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtLeoMn-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#canisMinor{
+  position: absolute;
+  z-index: 14;
+  background-color:transparent;
+  object-fit: cover;
+  width:150px;
+  transform: rotate(15deg);
+  top:1500px;
+  left:300px;
+}
+#abtCanisMn {
+  position: absolute;
+  z-index: 17;
+  left: 500px;
+  top: 1150px;
+  width: 550px;
+  height: 400px;
+  text-align: center;
+}
+#abtCanisMn-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtCanisMn-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Gemini {
+  position: absolute;
+  z-index: 4;
+  background-color:transparent;
+  width:300px;
+  top:1100px;
+  left:450px;
+  transform:rotate(35deg);
+}
+#abtGem {
+  position: absolute;
+  z-index: 17;
+  left: 700px;
+  top: 900px;
+  width: 550px;
+  height: 420px;
+  text-align: center;
+}
+#abtGemini-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtGemini-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Aries{
+  position: absolute;
+  z-index: 5;
+  background-color:transparent;
+  width:300px;
+  top:1500px;
+  left:700px;
+  transform:rotate(-40deg);
+}
+#abtAries {
+  position: absolute;
+  z-index: 17;
+  left: 1050px;
+  top: 1500px;
+  width: 550px;
+  height: 420px;
+  text-align: center;
+}
+#abtAries-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtAries-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Taurus{
+  position: absolute;
+  z-index: 6;
+  background-color:transparent;
+  top:960px;
+  left:600px;
+  transform:rotate(45deg);
+}
+#abtTaurus {
+  position: absolute;
+  z-index: 17;
+  left: 900px;
+  top: 600px;
+  width: 550px;
+  height: 550px;
+  text-align: center;
+}
+#abtTaurus-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtTaurus-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Triangulum{
+  position: absolute;
+  z-index: 8;
+  background-color:transparent;
+  top:1250px;
+  left:750px;
+}
+#abtTri {
+  position: absolute;
+  z-index: 17;
+  left: 200px;
+  top: 900px;
+  width: 550px;
+  height: 380px;
+  text-align: center;
+}
+#abtTri-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtTri-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#ursaMinor{
+  position: absolute;
+  z-index: 11;
+  background-color:transparent;
+  width:300px;
+  top:500px;
+  left:940px;
+  transform:rotate(180deg);
+}
+#abtUrsMn {
+  position: absolute;
+  z-index: 17;
+  left: 400px;
+  top: 500px;
+  width: 550px;
+  height: 500px;
+  text-align: center;
+}
+#abtUrsMn-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtUrsMn-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#draco{
+  position: absolute;
+  z-index: 12;
+  background-color:transparent;
+  width:800px;
+  top:-100px;
+  left:775px;
+  transform:rotate(-180deg);
+}
+#abtDraco {
+  position: absolute;
+  z-index: 17;
+  left: 250px;
+  top: 300px;
+  width: 550px;
+  height: 450px;
+  text-align: center;
+}
+#abtDraco-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtDraco-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#lyra{
+  position: absolute;
+  z-index: 13;
+  background-color:transparent;
+  left:1400px;
+  top:400px;
+  width:300px;
+  transform:rotate(-80deg);
+}
+#abtLyra {
+  position: absolute;
+  z-index: 17;
+  left: 850px;
+  top: 400px;
+  width: 550px;
+  height: 450px;
+  text-align: center;
+}
+#abtLyra-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtLyra-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Aquarius {
+  position: absolute;
+  z-index: 15;
+  background-color:transparent;
+  width:500px;
+  top:1250px;
+  left:1300px;
+}
+#abtAqu {
+  position: absolute;
+  z-index: 17;
+  left: 700px;
+  top: 1400px;
+  width: 550px;
+  height: 420px;
+  text-align: center;
+}
+#abtAqu-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtAqu-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#Pisces{
+  position: absolute;
+  z-index: 16;
+  top:1050px;
+  left:950px;
+  background-color: transparent;
+  object-fit: cover;
+  width:500px;
+  transform: rotate(-20deg);
+}
+#abtPisces {
+  position: absolute;
+  z-index: 17;
+  left: 400px;
+  top: 1000px;
+  width: 550px;
+  height: 430px;
+  text-align: center;
+}
+#abtPisces-tit {
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+#abtPisces-p {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 30px;
+}
+
+#image {
+  position: absolute;
+  z-index: 90;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+  object-fit: cover;
+  height: 250px;
+}

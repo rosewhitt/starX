@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,800,900&display=swap" rel="stylesheet">
+    <title>StarX</title>
+
+  </head>
+  <body>
+
+    <section class="content">
+      <ul>
+        <li><a href="load.html">home</a></li>
+        <li><a href="index.html">starXplore</a></li>
+        <li><a href="learn.html">learn</a></li>
+        <li><a href="zodiac.html">zodiac</a></li>
+        <li><a href="a-frame.html">the future</a></li>
+      </ul>
+      <img id="image" src="https://images.vexels.com/media/users/3/145819/isolated/preview/486c34cf5b3b4badd52bc427dbeb44a1-rocket-cartoon-by-vexels.png"/>
+
+      <!-- PEGASUS -->
+      <div class="tooltip">
+        <canvas id="Pegasus" width="200" height="180"></canvas>
+        <span class="tooltipdrop" id="abtPeg">
+          <p id="abtPeg-tit">PEGASUS</p>
+          <p id="abtPeg-p"> Recognizable by the “Great Square of Pegasus” asterism, this constellation is one of the largest in the northern hemisphere. It was named after the flying horse in Greek Mythology.</p>
+        </span>
+      </div>
+
+      <!-- CANCER -->
+      <div class="tooltip">
+        <canvas class="tooltip" id="Cancer" width="200" height="220"></canvas>
+        <span class="tooltipdrop" id="abtCancer">
+          <p id="abtCanc-tit">CANCER</p>
+          <p id="abtCanc-p">The Cancer constellation is located in the northern sky and belongs to the zodiac family. Its name means “the crab” in Latin and was first catalogued by the Greek astronomer Ptolemy in the 2nd century. Cancer is the 31st largest constellation in the sky and contains a number of famous deep sky objects.</p>
+        </span>
+      </div>
+
+      <!-- LYNX -->
+      <div class="tooltip">
+        <canvas id="Lynx" class="tooltip" width="200" height="200"></canvas>
+        <span class="tooltipdrop" id="abtLynx">
+          <p id="abtLynx-tit">LYNX</p>
+          <p id="abtLynx-p">The Lynx constellation is located in the northern hemisphere and belongs to the Ursa Major family. Polish astronomer Johannes Hevelius created the constellation to fill a relatively large gap between the two neighboring constellations, Auriga and Ursa Major. He named it Lynx because it was pretty faint and it took the eyesight of a lynx to see it.</p>
+
+        </span>
+      </div>
+
+      <!-- URSA MAJOR -->
+      <div class="tooltip">
+        <canvas id="UrsaMajor" class="tooltip" width="150" height="150"></canvas>
+        <span class="tooltipdrop" id="abtUrsaMj">
+          <p id="abtUrsaMj-tit">URSA MAJOR</p>
+          <p id="abtUrsaMj-p">The Ursa Minor constellation lies in the northern sky and is notable for marking the location of the north celestial pole, as it is home to Polaris, the North Star, which is located at the end of the dipper’s handle. The constellation’s name means “the smaller bear,” or “the lesser bear,” in Latin as it is related to the constellation Ursa Major, which means “the great bear,” or “the larger bear,” in Latin.</p>
+
+        </span>
+      </div>
+
+      <!-- LEO MINOR -->
+      <div class="tooltip">
+        <canvas id="leoMinor" class="tooltip"width="200" height="200"></canvas>
+        <span class="tooltipdrop" id="abtLeoMn">
+          <p id="abtLeoMn-tit">LEO MINOR</p>
+          <p id="abtLeoMn-p">Leo Minor is a small, faint constellation in the northern sky, with only one star brighter than fourth magnitude and is related to the Zodiac family. Its name means “the smaller lion” in Latin and it is made up of 18 stars. It can be found between the larger constellations Leo and Ursa Major.</p>
+        </span>
+      </div>
+
+      <!-- CANIS MINOR -->
+      <div class="tooltip">
+        <canvas id="canisMinor" class="tooltip" width="95" height="19"></canvas>
+        <span class="tooltipdrop" id="abtCanisMn">
+          <p id="abtCanisMn-tit">CANIS MINOR</p>
+          <p id="abtCanisMn-p">Canis Minor is a small constellation in the northern sky and its name means “the smaller dog” or “lesser dog” in Latin. Canis Minor is home to Procyon, one of the brightest stars in the night sky and Luyten’s Star, one of the nearest stars to Earth.</p>
+        </span>
+      </div>
+
+      <!-- GEMINI -->
+      <div class="tooltip">
+        <canvas class="tooltip" id="Gemini" width="200" height="220"></canvas>
+        <span class="tooltipdrop" id="abtGem">
+          <p id="abtGemini-tit">GEMINI</p>
+          <p id="abtGemini-p">The Gemini constellation is located in the northern hemisphere of the sky and belongs to the zodiac family.  Its name means “the twins” in Latin and is known mainly for its two bright stars, Castor and Pollux, and the neutron star Geminga. The constellation represents the twins Castor and Pollux in Greek mythology.</p>
+        </span>
+      </div>
+
+      <!-- ARIES -->
+      <div class="tooltip">
+        <canvas id="Aries" class="tooltip" width="200" height="150"></canvas>
+        <span class="tooltipdrop" id="abtAries">
+          <p id="abtAries-tit">ARIES</p>
+          <p id="abtAries-p">The 39th largest constellation in the sky, the Aries constellation belongs to the zodiac family. Its name means “the ram” in Latin and its symbol represents ram horns. The constellation is usually associated with the story of the Golden Fleece in Greek mythology. Aries corresponds to March 21 - April 19.</p>
+        </span>
+      </div>
+
+      <!-- TAURUS -->
+      <div class="tooltip">
+        <canvas id="Taurus" class="tooltip" width="450" height="100"></canvas>
+        <span class="tooltipdrop" id="abtTaurus">
+          <p id="abtTaurus-tit">TAURUS</p>
+          <p id="abtTaurus-p">The Taurus constellation lies in the northern sky and belongs to the zodiac family. Its name means “bull” in Latin and its symbol represents the bull’s head. Taurus is a large constellation and one of the oldest ones known. Taurus is known for its bright stars Aldebaran, El Nath, and Alcyone, as well as for the variable star T Tauri. The constellation is probably best known for the Pleiades (Messier 45), also known as the Seven Sisters, and the Hyades, which are the two nearest open star clusters to Earth.</p>
+        </span>
+      </div>
+
+      <!-- TRIANGULUM -->
+      <div class="tooltip">
+        <canvas id="Triangulum" class="tooltip" width="200" height="100"></canvas>
+        <span class="tooltipdrop" id="abtTri">
+          <p id="abtTri-tit">TRIANGULUM</p>
+          <p id="abtTri-p">The Triangulum constellation is located in the northern sky and is one of the Greek constellations. Its name means “the triangle” in Latin and it was first catalogued by the Greek astronomer Ptolemy in the 2nd century.</p>
+        </span>
+      </div>
+
+      <!-- URSA MINOR -->
+      <div class="tooltip">
+        <canvas id="ursaMinor" width="200" height="200"></canvas>
+        <span class="tooltipdrop" id="abtUrsMn">
+          <p id="abtUrsMn-tit">URSA MINOR</p>
+          <p id="abtUrsMn-p">The Ursa Minor constellation lies in the northern sky and is notable for marking the location of the north celestial pole, as it is home to Polaris, the North Star, which is located at the end of the dipper’s handle. The constellation’s name means “the smaller bear,” or “the lesser bear,” in Latin as it is related to the constellation Ursa Major, which means “the great bear,” or “the larger bear,” in Latin.</p>
+        </span>
+      </div>
+
+      <!-- DRACO -->
+      <div class="tooltip">
+        <canvas id="draco" class="tooltip" width="225" height="200"></canvas>
+        <span class="tooltipdrop" id="abtDraco">
+          <p id="abtDraco-tit">DRACO</p>
+          <p id="abtDraco-p">The Draco constellation lies in the northern sky and is one of the largest constellations in the sky. The constellation’s name means “the dragon” in Latin and represents Ladon, the dragon that guarded the gardens of the Hesperides in Greek mythology. Draco is also the name of a Harry Potter character, Draco Malfoy, who was named after this constellation.</p>
+        </span>
+      </div>
+
+      <!-- LYRA -->
+      <div class="tooltip">
+        <canvas id="lyra" class="tooltip" width="200" height="200"></canvas>
+        <span class="tooltipdrop" id="abtLyra">
+          <p id="abtLyra-tit">LYRA</p>
+          <p id="abtLyra-p">The Lyra constellation lies in the northern sky and contains Vega, the fifth brightest star in the sky and the second brightest star in the northern hemisphere, as well as the famous variable star RR Lyrae. It was first catalogued by the astronomer Ptolemy in the 2nd century and is associated with the myth of the Greek musician and poet Orpheus.</p>
+        </span>
+      </div>
+
+      <!-- AQUARIUS -->
+      <div class="tooltip">
+        <canvas class="tooltip" id="Aquarius" width="190" height="165"></canvas>
+        <span class="tooltipdrop" id="abtAqu">
+          <p id="abtAqu-tit">AQUARIUS</p>
+          <p id="abtAqu-p">The Aquarius constellation is located in the southern hemisphere and belongs to the zodiac family. Its name means “the water-bearer” in Latin and its symbol represents water. Aquarius contains the famous supergiant star Sadalsuud (Beta Aquarii) and a number of notable deep sky objects.</p>
+        </span>
+      </div>
+
+      <!-- PISCES -->
+      <div class="tooltip">
+        <canvas class="tooltip" id="Pisces" width="235" height="220"></canvas>
+        <span class="tooltipdrop" id="abtPisces">
+          <p id="abtPisces-tit">PISCES</p>
+          <p id="abtPisces-p">One of the largest constellations, the Pisces constellation belongs to the zodiac family. Its name means “the fish” in Latin and was first catalogued by the Greek astronomer Ptolemy in the 2nd century. The two celestial fish represent Venus and Cupid in Roman mythology. Pisces corresponds to February 19 - March 20. </p>
+        </span>
+      </div>
+
+
+
+    </section>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
